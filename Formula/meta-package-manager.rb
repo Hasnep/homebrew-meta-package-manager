@@ -1,7 +1,7 @@
 class MetaPackageManager < Formula
   include Language::Python::Virtualenv
 
-  desc "A wrapper around all package managers "
+  desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
   url "https://files.pythonhosted.org/packages/c1/5e/6a5a7f20906c93d5ab36dfa8264fde88be080b15e6e588bb6c9601c05c7d/meta-package-manager-5.1.0.tar.gz"
   sha256 "698fc75a69bedfb2fe8f1a1ce4ab0befde0c75c2cb73ca33943b6c4dea7e3086"
@@ -129,6 +129,6 @@ class MetaPackageManager < Formula
   end
 
   test do
-    false
+    system bin/"mpm", "--help"
   end
 end

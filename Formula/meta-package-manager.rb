@@ -129,6 +129,8 @@ class MetaPackageManager < Formula
   end
 
   test do
+    system bin/"mpm", "--version"
     system bin/"mpm", "--help"
+    system bin/"mpm", "installed"
   end
 end

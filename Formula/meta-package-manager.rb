@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/c1/5e/6a5a7f20906c93d5ab36dfa8264fde88be080b15e6e588bb6c9601c05c7d/meta-package-manager-5.1.0.tar.gz"
-  sha256 "698fc75a69bedfb2fe8f1a1ce4ab0befde0c75c2cb73ca33943b6c4dea7e3086"
+  url "https://files.pythonhosted.org/packages/46/50/ee10c851d9343bb0ced60a76f99609624e970aae54ccd0a2759d282a0803/meta-package-manager-5.2.0.tar.gz"
+  sha256 "e38ded2c6c2603aa045c375c978d2e2c835da2b97d8a2554d61400bed42c95c4"
 
   depends_on "python3"
 
@@ -119,8 +119,8 @@ class MetaPackageManager < Formula
   end
 
   resource "xmltodict" do
-    url "https://files.pythonhosted.org/packages/58/40/0d783e14112e064127063fbf5d1fe1351723e5dfe9d6daad346a305f6c49/xmltodict-0.12.0.tar.gz"
-    sha256 "50d8c638ed7ecb88d90561beedbf720c9b4e851a9fa6c47ebd64e99d166d8a21"
+    url "https://files.pythonhosted.org/packages/39/0d/40df5be1e684bbaecdb9d1e0e40d5d482465de6b00cbb92b84ee5d243c7f/xmltodict-0.13.0.tar.gz"
+    sha256 "341595a488e3e01a85a9d8911d8912fd922ede5fecc4dce437eb4b6c8d037e56"
   end
 
   def install

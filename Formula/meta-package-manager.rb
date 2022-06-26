@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/46/50/ee10c851d9343bb0ced60a76f99609624e970aae54ccd0a2759d282a0803/meta-package-manager-5.2.0.tar.gz"
-  sha256 "e38ded2c6c2603aa045c375c978d2e2c835da2b97d8a2554d61400bed42c95c4"
+  url "https://files.pythonhosted.org/packages/f0/14/e0be94abd75fa48b5734a0f2da06af870b6fff90551829553940d1107ecd/meta-package-manager-5.3.0.tar.gz"
+  sha256 "f1ca2c6812eae516b85d42f50d5fe6970bfccfe2bc9cc8d3b8031496bfa4bc1e"
 
   depends_on "python3"
 
@@ -94,8 +94,8 @@ class MetaPackageManager < Formula
   end
 
   resource "tabulate" do
-    url "https://files.pythonhosted.org/packages/ae/3d/9d7576d94007eaf3bb685acbaaec66ff4cdeb0b18f1bf1f17edbeebffb0a/tabulate-0.8.9.tar.gz"
-    sha256 "eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"
+    url "https://files.pythonhosted.org/packages/7a/53/afac341569b3fd558bf2b5428e925e2eb8753ad9627c1f9188104c6e0c4a/tabulate-0.8.10.tar.gz"
+    sha256 "6c57f3f3dd7ac2782770155f3adb2db0b1a269637e42f27599925e64b114f519"
   end
 
   resource "tomli" do

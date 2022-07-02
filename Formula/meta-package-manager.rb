@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/f0/14/e0be94abd75fa48b5734a0f2da06af870b6fff90551829553940d1107ecd/meta-package-manager-5.3.0.tar.gz"
-  sha256 "f1ca2c6812eae516b85d42f50d5fe6970bfccfe2bc9cc8d3b8031496bfa4bc1e"
+  url "https://files.pythonhosted.org/packages/04/77/585c779017578002a8b1c4730fabffb694f2e4afecc4e3629d2ee19d359a/meta-package-manager-5.4.0.tar.gz"
+  sha256 "62949197e4446d54b3d4c2ed1773f324679194b7c1f07980bf8e05667c25b25e"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class MetaPackageManager < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/56/31/7bcaf657fafb3c6db8c787a865434290b726653c912085fbd371e9b92e1c/charset-normalizer-2.0.12.tar.gz"
-    sha256 "2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597"
+    url "https://files.pythonhosted.org/packages/93/1d/d9392056df6670ae2a29fcb04cfa5cee9f6fbde7311a1bb511d4115e9b7a/charset-normalizer-2.1.0.tar.gz"
+    sha256 "575e708016ff3a5e3681541cb9d79312c416835686d054a23accb873b254f413"
   end
 
   resource "cli-helpers" do
@@ -34,8 +34,8 @@ class MetaPackageManager < Formula
   end
 
   resource "click-extra" do
-    url "https://files.pythonhosted.org/packages/c4/d7/5ee25f15f553891d508a4a2755532712033cc95eb4ba38770f268fc2771f/click-extra-2.1.1.tar.gz"
-    sha256 "a0ee6dcc2b42c3ae3f2f0172b830a8b215fed5802249bb98c7ef979d7030fd40"
+    url "https://files.pythonhosted.org/packages/0e/0b/44e5a0e9234385b13d2186ed0a46f6849530d1d21d53aa9d1c3e7c208fd0/click-extra-2.1.2.tar.gz"
+    sha256 "17042df10aca35116b03493b6353b383d5a9c5bd5d462a0b8ddff21e79c91044"
   end
 
   resource "click-log" do
@@ -44,8 +44,8 @@ class MetaPackageManager < Formula
   end
 
   resource "cloup" do
-    url "https://files.pythonhosted.org/packages/73/5f/e92b0ce3e9697d9af2992587b82ec2333f01f2806d04ff99864f7a962385/cloup-0.14.0.tar.gz"
-    sha256 "4dec7e43905b7771884cda4f13ab8b7537bceaee467a92655e7660797ab08c47"
+    url "https://files.pythonhosted.org/packages/24/9a/2a23b733e9986d7cde471ef5add88d389a22e470976e6fab66d2c488f15b/cloup-0.15.1.tar.gz"
+    sha256 "8008b480a77d8a112c78702f64675adbdf59fadc39e391f3ba8bcac9c4d4cd86"
   end
 
   resource "commentjson" do
@@ -84,8 +84,8 @@ class MetaPackageManager < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/e9/23/384d9953bb968731212dc37af87cb75a885dc48e0615bd6a303577c4dc4b/requests-2.28.0.tar.gz"
-    sha256 "d568723a7ebd25875d8d1eaf5dfa068cd2fc8194b2e483d7b1f7c81918dbec6b"
+    url "https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz"
+    sha256 "7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"
   end
 
   resource "six" do

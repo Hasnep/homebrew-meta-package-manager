@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/04/77/585c779017578002a8b1c4730fabffb694f2e4afecc4e3629d2ee19d359a/meta-package-manager-5.4.0.tar.gz"
-  sha256 "62949197e4446d54b3d4c2ed1773f324679194b7c1f07980bf8e05667c25b25e"
+  url "https://files.pythonhosted.org/packages/b6/36/c805b99b8cc57f6f8809d66d165621053e531a04bf160366aec5302c3087/meta-package-manager-5.5.0.tar.gz"
+  sha256 "ae0d5b55f74be1b97b5046b8943cffe63ad9362a0d3ffbbdaef667aeeff28793"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class MetaPackageManager < Formula
   end
 
   resource "click-extra" do
-    url "https://files.pythonhosted.org/packages/0e/0b/44e5a0e9234385b13d2186ed0a46f6849530d1d21d53aa9d1c3e7c208fd0/click-extra-2.1.2.tar.gz"
-    sha256 "17042df10aca35116b03493b6353b383d5a9c5bd5d462a0b8ddff21e79c91044"
+    url "https://files.pythonhosted.org/packages/d2/89/7d992cd55735d931d628808d5728d80050973a72189948a9b770245f479e/click-extra-2.1.3.tar.gz"
+    sha256 "4d0583cbea8069483e732c9f4e6a6cbd22e3744d5f248419d00e5c10f9887218"
   end
 
   resource "click-log" do
@@ -79,8 +79,8 @@ class MetaPackageManager < Formula
   end
 
   resource "regex" do
-    url "https://files.pythonhosted.org/packages/1a/6b/9b6b8284e88105acbcb39e71bd3bfcaffcd36c2601152ae23b00e6e04d91/regex-2022.6.2.tar.gz"
-    sha256 "f7b43acb2c46fb2cd506965b2d9cf4c5e64c9c612bac26c1187933c7296bf08c"
+    url "https://files.pythonhosted.org/packages/52/b1/48941b5df2d73a14e067e68d9055544effc515c8242741fd7c1dd2d72101/regex-2022.7.9.tar.gz"
+    sha256 "601c99ac775b6c89699a48976f3dbb000b47d3ca59362c8abc9582e6d0780d91"
   end
 
   resource "requests" do
@@ -109,8 +109,8 @@ class MetaPackageManager < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/1b/a5/4eab74853625505725cefdf168f48661b2cd04e7843ab836f3f63abf81da/urllib3-1.26.9.tar.gz"
-    sha256 "aabaf16477806a5e1dd19aa41f8c2b7950dd3c746362d7e3223dbe6de6ac448e"
+    url "https://files.pythonhosted.org/packages/25/36/f056e5f1389004cf886bb7a8514077f24224238a7534497c014a6b9ac770/urllib3-1.26.10.tar.gz"
+    sha256 "879ba4d1e89654d9769ce13121e0f94310ea32e8d2f8cf587b77c08bbcdb30d6"
   end
 
   resource "wcwidth" do

@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/b6/36/c805b99b8cc57f6f8809d66d165621053e531a04bf160366aec5302c3087/meta-package-manager-5.5.0.tar.gz"
-  sha256 "ae0d5b55f74be1b97b5046b8943cffe63ad9362a0d3ffbbdaef667aeeff28793"
+  url "https://files.pythonhosted.org/packages/f4/2c/c716875b04cbdae365b9baa77527a199a7af45af39dca38c92605bd6d882/meta-package-manager-5.5.1.tar.gz"
+  sha256 "8fb5cf7ae7f231f6c82ef8fda707b131b1c96c20fe3f760dd0735d6d9f9fa2f2"
 
   depends_on "python3"
 

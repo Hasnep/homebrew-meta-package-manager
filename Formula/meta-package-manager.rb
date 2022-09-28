@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/f4/2c/c716875b04cbdae365b9baa77527a199a7af45af39dca38c92605bd6d882/meta-package-manager-5.5.1.tar.gz"
-  sha256 "8fb5cf7ae7f231f6c82ef8fda707b131b1c96c20fe3f760dd0735d6d9f9fa2f2"
+  url "https://files.pythonhosted.org/packages/d5/40/5931cbc9cb80fd274f05a484162a5c7aea21723971d81970ec5dc20b1bf1/meta-package-manager-5.6.0.tar.gz"
+  sha256 "d689cf2c8cec7e4d1b6c84bc551b272c56d3997f0191831c06de40eb598c3431"
 
   depends_on "python3"
 
@@ -13,14 +13,19 @@ class MetaPackageManager < Formula
     sha256 "65e70a79a731a7fe6e98592ecfb5ccf2115873d01dbc576079874629e5c90f13"
   end
 
+  resource "bracex" do
+    url "https://files.pythonhosted.org/packages/b3/96/d53e290ddf6215cfb24f93449a1835eff566f79a1f332cf046a978df0c9e/bracex-2.3.post1.tar.gz"
+    sha256 "e7b23fc8b2cd06d3dec0692baabecb249dda94e06a617901ff03a6c56fd71693"
+  end
+
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/cc/85/319a8a684e8ac6d87a1193090e06b6bbb302717496380e225ee10487c888/certifi-2022.6.15.tar.gz"
-    sha256 "84c85a9078b11105f04f3036a9482ae10e4621616db313fe045dd24743a0820d"
+    url "https://files.pythonhosted.org/packages/cb/a4/7de7cd59e429bd0ee6521ba58a75adaec136d32f91a761b28a11d8088d44/certifi-2022.9.24.tar.gz"
+    sha256 "0d9c601124e5a6ba9712dbc60d9c53c21e34f5f641fe83002317394311bdce14"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/93/1d/d9392056df6670ae2a29fcb04cfa5cee9f6fbde7311a1bb511d4115e9b7a/charset-normalizer-2.1.0.tar.gz"
-    sha256 "575e708016ff3a5e3681541cb9d79312c416835686d054a23accb873b254f413"
+    url "https://files.pythonhosted.org/packages/a1/34/44964211e5410b051e4b8d2869c470ae8a68ae274953b1c7de6d98bbcf94/charset-normalizer-2.1.1.tar.gz"
+    sha256 "5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845"
   end
 
   resource "cli-helpers" do
@@ -34,8 +39,8 @@ class MetaPackageManager < Formula
   end
 
   resource "click-extra" do
-    url "https://files.pythonhosted.org/packages/d2/89/7d992cd55735d931d628808d5728d80050973a72189948a9b770245f479e/click-extra-2.1.3.tar.gz"
-    sha256 "4d0583cbea8069483e732c9f4e6a6cbd22e3744d5f248419d00e5c10f9887218"
+    url "https://files.pythonhosted.org/packages/cf/35/f0a031baaebd38c0f6b2f966477e3702c8757eefe045de038d09b908df60/click-extra-3.2.4.tar.gz"
+    sha256 "fed05178880cfe0e8ff439a09d7b594baf0fde7d160e1f8a9d1203b002052b33"
   end
 
   resource "click-log" do
@@ -44,8 +49,8 @@ class MetaPackageManager < Formula
   end
 
   resource "cloup" do
-    url "https://files.pythonhosted.org/packages/24/9a/2a23b733e9986d7cde471ef5add88d389a22e470976e6fab66d2c488f15b/cloup-0.15.1.tar.gz"
-    sha256 "8008b480a77d8a112c78702f64675adbdf59fadc39e391f3ba8bcac9c4d4cd86"
+    url "https://files.pythonhosted.org/packages/68/fa/147b2355890a979a1e09adeaf558bd3f092aa8b0676638d152255fbddde2/cloup-1.0.1.tar.gz"
+    sha256 "8907e9cf6ae5ed8dcf2481b668ef82bb5921c7683af177cec21911a0436ab138"
   end
 
   resource "commentjson" do
@@ -59,8 +64,8 @@ class MetaPackageManager < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/62/08/e3fc7c8161090f742f504f40b1bccbfc544d4a4e09eb774bf40aafce5436/idna-3.3.tar.gz"
-    sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
+    url "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz"
+    sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
   end
 
   resource "lark-parser" do
@@ -73,14 +78,24 @@ class MetaPackageManager < Formula
     sha256 "0096d52e9dad9939c3d975a774666af186eda617e6ca84df4c94dec30004f2a8"
   end
 
+  resource "Pygments" do
+    url "https://files.pythonhosted.org/packages/e0/ef/5905cd3642f2337d44143529c941cc3a02e5af16f0f65f81cbef7af452bb/Pygments-2.13.0.tar.gz"
+    sha256 "56a8508ae95f98e2b9bdf93a6be5ae3f7d8af858b43e02c5a2ff083726be40c1"
+  end
+
+  resource "pygments-ansi-color" do
+    url "https://files.pythonhosted.org/packages/75/f0/7f17c321a893a8eeb214a20a6c240fc7ab970da832d46733bb784aeba490/pygments-ansi-color-0.1.0.tar.gz"
+    sha256 "d3076c798e5867966b7a4872a4c6174a9c1fccaf5b4895db3d5692bcd84ecd64"
+  end
+
   resource "PyYAML" do
     url "https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz"
     sha256 "68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"
   end
 
   resource "regex" do
-    url "https://files.pythonhosted.org/packages/52/b1/48941b5df2d73a14e067e68d9055544effc515c8242741fd7c1dd2d72101/regex-2022.7.9.tar.gz"
-    sha256 "601c99ac775b6c89699a48976f3dbb000b47d3ca59362c8abc9582e6d0780d91"
+    url "https://files.pythonhosted.org/packages/f8/43/b85d103acc0bfb54939f801908bf83354085579e8422eeaa22c017950c02/regex-2022.9.13.tar.gz"
+    sha256 "f07373b6e56a6f3a0df3d75b651a278ca7bd357a796078a26a958ea1ce0588fd"
   end
 
   resource "requests" do
@@ -109,8 +124,13 @@ class MetaPackageManager < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/25/36/f056e5f1389004cf886bb7a8514077f24224238a7534497c014a6b9ac770/urllib3-1.26.10.tar.gz"
-    sha256 "879ba4d1e89654d9769ce13121e0f94310ea32e8d2f8cf587b77c08bbcdb30d6"
+    url "https://files.pythonhosted.org/packages/b2/56/d87d6d3c4121c0bcec116919350ca05dc3afd2eeb7dc88d07e8083f8ea94/urllib3-1.26.12.tar.gz"
+    sha256 "3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e"
+  end
+
+  resource "wcmatch" do
+    url "https://files.pythonhosted.org/packages/b7/94/5dd083fc972655f6689587c3af705aabc8b8e781bacdf22d6d2282fe6142/wcmatch-8.4.1.tar.gz"
+    sha256 "b1f042a899ea4c458b7321da1b5e3331e3e0ec781583434de1301946ceadb943"
   end
 
   resource "wcwidth" do

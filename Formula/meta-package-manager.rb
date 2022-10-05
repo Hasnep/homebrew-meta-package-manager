@@ -3,8 +3,8 @@ class MetaPackageManager < Formula
 
   desc "A wrapper around all package managers"
   homepage "https://github.com/kdeldycke/meta-package-manager"
-  url "https://files.pythonhosted.org/packages/02/23/9cb38216a8a505d49ea115cf4c92dcb75515c15750158a372607d6ee5b4c/meta-package-manager-5.7.0.tar.gz"
-  sha256 "1d0fdada8fcbb732ec9ea2a34519d31d56332958be4063b5eda6a770ea0042c7"
+  url "https://files.pythonhosted.org/packages/dd/3f/566450f35f936ebe0f413ca9a59ad8fd4ecaa727ded9c510115908eb21a9/meta-package-manager-5.8.0.tar.gz"
+  sha256 "301026cce0cfdfd63f0e281c9dbfa44b202d39427d2e889d9f2a17fc7a4813f6"
 
   depends_on "python3"
 
@@ -39,8 +39,8 @@ class MetaPackageManager < Formula
   end
 
   resource "click-extra" do
-    url "https://files.pythonhosted.org/packages/cf/35/f0a031baaebd38c0f6b2f966477e3702c8757eefe045de038d09b908df60/click-extra-3.2.4.tar.gz"
-    sha256 "fed05178880cfe0e8ff439a09d7b594baf0fde7d160e1f8a9d1203b002052b33"
+    url "https://files.pythonhosted.org/packages/b3/4e/738107f8f178ad5c9b57dde0891e87ec5898d60d77b4d8c7dc89b941646e/click-extra-3.2.5.tar.gz"
+    sha256 "7cdf804f5ae4f35f2ecdb2aaa439ef659dcb02200ce4f56b1493fd1c304fc1b1"
   end
 
   resource "click-log" do
@@ -76,6 +76,11 @@ class MetaPackageManager < Formula
   resource "mergedeep" do
     url "https://files.pythonhosted.org/packages/3a/41/580bb4006e3ed0361b8151a01d324fb03f420815446c7def45d02f74c270/mergedeep-1.3.4.tar.gz"
     sha256 "0096d52e9dad9939c3d975a774666af186eda617e6ca84df4c94dec30004f2a8"
+  end
+
+  resource "packageurl-python" do
+    url "https://files.pythonhosted.org/packages/43/30/63317920f2ece59fb2c68d0d455c3c4b142d545c8b16d4df37ba13bafbf0/packageurl-python-0.10.3.tar.gz"
+    sha256 "a01371a9015fb5c1a3c62eb2f7250b87d1733fced57f075e30715eb8e15e075d"
   end
 
   resource "Pygments" do

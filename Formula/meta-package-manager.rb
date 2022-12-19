@@ -2,7 +2,7 @@ class MetaPackageManager < Formula
   include Language::Python::Virtualenv
 
   desc "A wrapper around all package managers"
-  homepage "https://github.com/kdeldycke/meta-package-manager"
+  homepage "https://kdeldycke.github.io/meta-package-manager/"
   url "https://files.pythonhosted.org/packages/97/78/feca54484c4d3c08dfec2d4ab3b3b4307ee55ce10e9a99cb1c82980a92ff/meta_package_manager-5.10.0.tar.gz"
   sha256 "8556866d29446508d7a3caf1a62d22ea55bc1e9a15a4667b7f0004d1e5f88659"
 

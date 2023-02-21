@@ -4,8 +4,8 @@ class MetaPackageManager < Formula
   desc "A wrapper around all package managers"
   homepage "https://kdeldycke.github.io/meta-package-manager/"
   license "GPL-2.0-only"
-  url "https://files.pythonhosted.org/packages/6f/f9/7b354301926ab50b678de6319d91e1ad56b56ecc9616673b0e7145a80c32/meta_package_manager-5.11.6.tar.gz"
-  sha256 "0de821e63239644bdadb31c87e349c95f19969bfa6f07bed717cb3bb28165b25"
+  url "https://files.pythonhosted.org/packages/fc/25/1ebbb33f35e43d6fb07e5f051e40edb1c9067579a6c71d672c671f2cbecd/meta_package_manager-5.11.7.tar.gz"
+  sha256 "9efbd675d0106023913d46d546c6240544e962373f02091c2b37cd6e15a2c329"
 
   depends_on "python3"
 
@@ -45,8 +45,8 @@ class MetaPackageManager < Formula
   end
 
   resource "click-extra" do
-    url "https://files.pythonhosted.org/packages/0b/cf/1abe7a27233190f03099a9af1793d06201994225285a4deb14a42cd0e956/click_extra-3.8.0.tar.gz"
-    sha256 "7f67201685034708ed241039db32f2849900ac581c8022f796b0685d0984219c"
+    url "https://files.pythonhosted.org/packages/4d/66/2599b84d625d516645643c547a3484e749148e51f9c6a71bb57baa56ed89/click_extra-3.8.2.tar.gz"
+    sha256 "1146fffc400957e56c4ff6e69a3870cbcd8f7d56f7cc9a94cf90698676291d74"
   end
 
   resource "click-log" do
@@ -67,11 +67,6 @@ class MetaPackageManager < Formula
   resource "docutils" do
     url "https://files.pythonhosted.org/packages/6b/5c/330ea8d383eb2ce973df34d1239b3b21e91cd8c865d21ff82902d952f91f/docutils-0.19.tar.gz"
     sha256 "33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6"
-  end
-
-  resource "graphviz" do
-    url "https://files.pythonhosted.org/packages/a5/90/fb047ce95c1eadde6ae78b3fca6a598b4c307277d4f8175d12b18b8f7321/graphviz-0.20.1.zip"
-    sha256 "8c58f14adaa3b947daf26c19bc1e98c4e0702cdc31cf99153e6f06904d492bf8"
   end
 
   resource "idna" do

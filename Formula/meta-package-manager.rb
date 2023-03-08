@@ -4,8 +4,8 @@ class MetaPackageManager < Formula
   desc "A wrapper around all package managers"
   homepage "https://kdeldycke.github.io/meta-package-manager/"
   license "GPL-2.0-only"
-  url "https://files.pythonhosted.org/packages/fc/25/1ebbb33f35e43d6fb07e5f051e40edb1c9067579a6c71d672c671f2cbecd/meta_package_manager-5.11.7.tar.gz"
-  sha256 "9efbd675d0106023913d46d546c6240544e962373f02091c2b37cd6e15a2c329"
+  url "https://files.pythonhosted.org/packages/04/02/829875a33d246f55cd9f4f0d270c8e1fcf8f570d6a122b16a0ef97e0be65/meta_package_manager-5.12.0.tar.gz"
+  sha256 "8fb13e8220aca1ce6a4ec49bf7e51011c21c0a420e1ab4ff60adedc15f700888"
 
   depends_on "python3"
 
@@ -15,8 +15,8 @@ class MetaPackageManager < Formula
   end
 
   resource "Babel" do
-    url "https://files.pythonhosted.org/packages/ff/80/45b42203ecc32c8de281f52e3ec81cb5e4ef16127e9e8543089d8b1649fb/Babel-2.11.0.tar.gz"
-    sha256 "5ef4b3226b0180dedded4229651c8b0e1a3a6a2837d45a073272f313e4cf97f6"
+    url "https://files.pythonhosted.org/packages/ba/42/54426ba5d7aeebde9f4aaba9884596eb2fe02b413ad77d62ef0b0422e205/Babel-2.12.1.tar.gz"
+    sha256 "cc2d99999cd01d44420ae725a21c9e3711b3aadc7976d6147f622d8581963455"
   end
 
   resource "boltons" do
@@ -35,8 +35,8 @@ class MetaPackageManager < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/96/d7/1675d9089a1f4677df5eb29c3f8b064aa1e70c1251a0a8a127803158942d/charset-normalizer-3.0.1.tar.gz"
-    sha256 "ebea339af930f8ca5d7a699b921106c6e29c617fe9606fa7baa043c1cdae326f"
+    url "https://files.pythonhosted.org/packages/ff/d7/8d757f8bd45be079d76309248845a04f09619a7b17d6dfc8c9ff6433cac2/charset-normalizer-3.1.0.tar.gz"
+    sha256 "34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5"
   end
 
   resource "click" do
@@ -122,11 +122,6 @@ class MetaPackageManager < Formula
   resource "pygments-ansi-color" do
     url "https://files.pythonhosted.org/packages/75/f0/7f17c321a893a8eeb214a20a6c240fc7ab970da832d46733bb784aeba490/pygments-ansi-color-0.1.0.tar.gz"
     sha256 "d3076c798e5867966b7a4872a4c6174a9c1fccaf5b4895db3d5692bcd84ecd64"
-  end
-
-  resource "pytz" do
-    url "https://files.pythonhosted.org/packages/03/3e/dc5c793b62c60d0ca0b7e58f1fdd84d5aaa9f8df23e7589b39cc9ce20a03/pytz-2022.7.1.tar.gz"
-    sha256 "01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0"
   end
 
   resource "PyYAML" do
